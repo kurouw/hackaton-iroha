@@ -1,0 +1,30 @@
+<!DOCTYPE>
+<html lang=ja>
+<head>
+  <meta charset="UTF-8">
+  <title>blockchain</title>
+  <link rel="stylesheet" type="text/css" href="./main.css">
+</head>
+<body>
+  <script src="./iroha-javascript/test/lib/supercop.js"></script>
+  <script src="./iroha-javascript/test/lib/sha3.min.js"></script>
+  <script src="./iroha-javascript/src/iroha.js"></script>
+  <script src="./main.js"></script>
+  <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+  <script type="text/javascript" src="https://rawgit.com/padolsey-archive/jquery.fn/master/cross-domain-ajax/jquery.xdomainajax.js"></script>
+  <header class="head">CoGCa</header>
+  <form  class="form1">
+    <ul class="form-list">
+      <li><input type="text" id="number" name="number" placeholder="card-number"></li>
+      <li><input type="text" id="receiver" name="receiver" placeholder="receiver-card-number"></li>
+    </ul>
+    <ul class="button-list">
+      <li><input type="button" Value="登録やで" onclick="accountRegister()"></li>
+      <li><input type="button" Value="照会やで" onclick="getMyAccount()"></li>
+      <!-- <li><input type="button" Value="気合いやで" onclick="fire()"></li> -->
+      <li><input type="button" Value="履歴やで" onclick="getMyHistory()"></li>
+      <li><input type="button" Value="実行やで" onclick="execCom()"></li>
+    </ul>
+</form>
+</body>
+</html>

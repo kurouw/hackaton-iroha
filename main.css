@@ -1,0 +1,24 @@
+.head {
+  margin: 30px;
+  text-align: center;
+}
+
+.form-list{
+  margin: 20px;
+  padding: 0;
+  text-align: center;
+  list-style: none;
+}
+
+.button-list{
+  display: flex;
+  margin: 20px;
+  padding: 0;
+  text-align: center;
+  justify-content: center;
+  list-style: none;
+}
+
+li {
+  margin: 10px;
+}
